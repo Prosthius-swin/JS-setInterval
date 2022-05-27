@@ -7,6 +7,13 @@ let intervalDivisor = 1;
 
 setInterval(test, 250);
 
+function test()
+{
+    counters();
+    clicks++;
+    autoClickerIncrement();
+}
+
 function autoClickerUpdate()
 {
     clearInterval(autoClicker);
